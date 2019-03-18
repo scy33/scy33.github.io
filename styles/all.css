@@ -1,0 +1,32 @@
+html {
+  background-color: white;
+  font-family: 'Avenir', 'Arial Black', sans-serif;
+}
+
+.homepage img {
+  width: 100%;
+}
+
+body {
+  text-align: right;
+}
+
+.resume {
+  position: absolute;
+  right: 3vw;
+  font-size: 4.5vw;
+  padding-top: 0px;
+}
+.resume a {
+  text-decoration: none;
+  color: #999999;
+}
+
+footer {
+  background-color: #9F435F;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 4.5vw;
+
+}
