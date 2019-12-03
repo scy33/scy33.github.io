@@ -81,7 +81,7 @@
           <!-- End #lead-content -->
 
           <div id="lead-overlay">
-              <img class="circle" src="circle.png"/>
+            <!--  <img class="circle" src="images/websitefirstlaunch.png"/>
 
             <img class="head-image up" src="up.jpg"/>
 
@@ -99,7 +99,43 @@
 
             <img class="head-image up-right" src="upright.jpg"/>
 
-            <img class="head-image front" src="images/websitefirstlaunch.png"/></div>
+            <img class="head-image front" src="images/websitefirstlaunch.png"/>
+            <script type="text/javascript">
+
+            var mouseX;
+
+            var mouseY;
+
+            var imageJan;
+
+            $(window).load(init);
+
+            $(window).resize(init);
+
+            function init() {
+
+                mouseX = 0;
+
+                mouseY = 0;
+
+                imageJan = new HeadImage("jan");
+
+                $(window).mousemove(getMousePosition);
+
+            }
+
+            function getMousePosition(event) {
+
+                mouseX = event.pageX;
+
+                mouseY = event.pageY;
+
+                imageJan.setImageDirection();
+
+            }   </script>
+            -->
+
+        </div>
 
           <div id="lead-down">
               <span>

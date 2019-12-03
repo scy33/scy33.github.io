@@ -15,7 +15,7 @@
     position:relative;
     height:100vh;
     min-height:500px;
-    max-height:1080px; /*background:url(../images/websitefirstlaunch.png);*/
+    max-height:1080px; background:url(../images/websitefirstlaunch.png);
     background-size:cover;
     padding:15px;
     overflow:hidden}
@@ -23,6 +23,14 @@
     .head-image{
         z-index: 0;
     }
+    .head-image, .circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 260px;
+        height: 260px;
+    }
+
 
     .front{
         z-index: 1;
