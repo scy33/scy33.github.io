@@ -57,11 +57,11 @@ p{
 }
 
 .column-1-3{
-    width: 33.333%;
+    width: 0%;
 }
 
 .column-2-3{
-    width: 66.666%;
+    width: 100%;
 }
 
 .text-holder{
@@ -71,16 +71,16 @@ p{
 .image-holder{
     position: relative;
     margin: 0 auto;
-    width: 260px;
-    height: 260px;
+    width: 500px;
+    height: 500px;
 }
 
 .head-image,.circle{
     position: absolute;
     top: 0;
     left: 0;
-    width: 260px;
-    height: 260px;
+    width: 500px;
+    height: 500px;
 }
 
 .head-image{
