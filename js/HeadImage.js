@@ -18,16 +18,16 @@ var imageBottom;
 var imageRight;
 
 function HeadImage(className){
-    
+
     /* Setting the global instance of classname to the given parameter*/
     this.className = className;
-    
+
     /* Calculating the borders of the image */
     this.imageLeft = $("."+this.className+">.head-image").offset().left;
     this.imageRight = this.imageLeft + $("."+this.className+">.head-image").width();
     this.imageTop = $("."+this.className+">.head-image").offset().top;
     this.imageBottom = this.imageTop + $("."+this.className+">.head-image").height();
-    
+
     /* This function determines where the mouse pointer is relative to the image
      * and displays the correct image accordingly. */
     this.setImageDirection = function(){

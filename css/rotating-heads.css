@@ -71,16 +71,16 @@ p{
 .image-holder{
     position: relative;
     margin: 0 auto;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
 }
 
 .head-image,.circle{
     position: absolute;
     top: 0;
     left: 0;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
 }
 
 .head-image{
@@ -88,11 +88,21 @@ p{
 }
 
 .circle{
-    z-index: 2;
+    z-index: 1;
+    position: absolute;
+    top: -25vh;
+    left: -40vw;
+    width: 500%;
+    height: 300%;
 }
 
 .front{
     z-index: 1;
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 500px;
+    height: 500px;
 }
 
 .widget{
